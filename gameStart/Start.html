@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Train+One&family=Yatra+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.start.css" type="text/css"/>
+   
+
+</head>
+<body>
+    <div id="board">
+        <div id="board0">
+            <p class="blink">Let's play!</p>
+        </div>
+
+        <div id="board1">
+                Take your pick:
+
+                <div id="board2">
+                <div id="rock">
+                    <img data-option="rock" class="one" src="img1/rock.jpg" alt=""/>
+                </div>
+
+                <div id="paper">
+                    <img  data-option="paper" class="one" src="img1/paper.jpg" alt=""/>
+                </div>
+
+                <div id="scissors">
+                    <img data-option="scissors" class="one" src="img1/scissors.jpg" alt=""/>
+                </div>
+                </div>
+
+                <div id="container">
+                    <div id="one">
+                        You: <span data-summary="your-choice"></span><br>
+                        Your score: <span data-summary="your-score"></span>
+                    </div>
+                    <div id="two">
+                        Opponent: <span data-summary="ai-choice"></span><br>
+                        Opponent's score: <span data-summary="ai-score"></span>
+                    </div>
+                </div>
+        </div>
+       
+    </div>
+
+    <script src="game.js"></script>
+   
+
+</body>
+</html>

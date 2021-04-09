@@ -1,0 +1,200 @@
+body
+{ 
+    font-family: 'Yatra One', cursive;
+    box-sizing: border-box;  
+    text-shadow: grey 3px;
+    background-color:rgb(54, 104, 128); 
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+        
+
+#container 
+{
+    background-color: rgba(205, 226, 235, 0.685);
+    float: left;
+    width: 1100px;
+    height: 370px;
+    margin: 30px 50px 50px 100px;
+    opacity: 0.9;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.308);
+    border-radius: 10px
+}
+
+
+#container1 {
+
+    float: left;
+    margin: 3%;
+    width: 300px;
+    height: 300px; 
+    perspective: 400px;
+    background: transparent;
+}
+
+
+#cart1 {
+
+    position: relative;
+    width: 100%;
+    height: 100%; 
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+#container1:hover > #cart1 {
+    transform:rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+  }
+
+#rock img {
+    position: absolute;
+    left: 0px;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility:hidden;
+}
+
+#rockback img 
+{
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0,7px;
+    border-radius: 10px; 
+    transform:rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+}
+
+
+
+#container2 {
+
+    float: left;
+    margin: 3% 0 3% 3%;
+    width: 300px;
+    height: 300px; 
+    perspective: 500px;
+    background: transparent;
+}
+
+
+#cart2 {
+    position: relative;
+    width: 100%;
+    height: 100%; 
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+#container2:hover > #cart2 {
+    transform:rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+  }
+
+#paper img 
+{
+    position: absolute;
+    left: 0px;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility:hidden;
+}
+
+#paperback img 
+{
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; 
+    transform:rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+}
+
+
+#container3 
+{
+    float: left;
+    position: relative;
+    bottom: 310px;
+    left:350px;
+    margin: 3%;
+    width: 300px;
+    height: 300px; 
+    perspective: 500px;
+    background: transparent;
+}
+
+
+#cart3 {
+    position: relative;
+    width: 100%;
+    height: 100%; 
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+#container3:hover > #cart3 {
+    transform:rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+  }
+
+#scissors img {
+    position: absolute;
+    left: 0px;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility:hidden;
+}
+
+#scissorsback img {
+  position: absolute;
+  right: 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; 
+    transform:rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+}
+
+
+
+    
+
+#start {
+
+    display: block;
+    padding: 5px 20px;
+    border: 2px solid rgba(0, 0, 0, 0.055);
+    text-transform: uppercase;
+    background-color:  whitesmoke;
+    font-weight: bold;
+    margin: auto;
+    transition: .3s;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 15px;
+    opacity:0.8;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.479);
+    }
+
+    a {
+        text-decoration: none;
+        color:black;
+    
+    }
